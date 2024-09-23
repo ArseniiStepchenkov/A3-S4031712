@@ -1,0 +1,569 @@
+@font-face{
+	font-family: "Deformica";
+	src: url("Deformica.otf");
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: 1000px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width:auto;
+ }
+
+#html {
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#Main-Page {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h2{
+	color: #000;
+	font-family: Deformica;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+h3{
+	font-family: "pf-videotext", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: justify;
+}
+
+h4{
+	font-family: "pf-videotext", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 19px;
+	line-height: 46px;
+}
+
+h5{
+	font-family: "pf-videotext", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10px;
+	line-height: 19px;
+	text-align: justify;
+}
+
+h6{
+  font-family: "Libre Barcode 128", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 99px;
+  margin: 0;
+  height: 60px;
+}
+
+h7{
+	font-family: "pf-videotext", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 128px;
+	line-height: 38px;
+	color: white;
+}
+
+h8{
+	color: #000;
+	font-family: Deformica;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+h9{
+	color: #000;
+	font-family: Deformica;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+
+p{
+	font-family: "pf-videotext", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: justify;
+}
+
+#Welcome{
+	width: 584px;
+}
+
+#Landing{
+	display: flex;
+	gap: 50px;
+}
+
+#Title{
+	width: 582px;
+	height: 441.271px;
+}
+
+#Stars-Landing{
+	margin-top: -64px;
+	display: flex;
+	gap: 30px;
+	height: 80px;
+}
+
+#Do-Not{
+	display: flex;
+	gap: 10px;
+}
+
+#Do-Not-Text{
+	text-align: center;
+	padding: auto;
+	vertical-align: middle;
+	width: 382px;
+	height: 95px;
+	border: 4px dashed #000;
+}
+
+#Clients-Without{
+	width: 181px;
+	height: 100px;
+	margin-top: -20px;
+}
+
+#Barcode-Break{
+	margin-top: 40px;
+}
+
+#Dashes{
+	width: 583px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#Scroll-Down{
+	display: flex;
+	margin-top: 40px;
+	width: 585px;
+	justify-content: space-between;
+}
+
+#All-Info{
+	width: 181px;
+}
+
+#Scroll-Down-Text{
+	width: 182px;
+	height: 95px;
+	text-align: center;
+	border: 4px dashed #000;
+}
+
+#Logos-Landing-1{
+	margin-left: 20px;
+	display: flex;
+	width: 570px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+#ISBN{
+	height: 90px;
+	vertical-align: top;
+}
+
+#ISBN-Text{
+	position: absolute;
+	margin-top: 17px;
+}
+
+#Line{
+	position: relative;
+	margin-top: 77px;
+}
+
+#Logos-Landing-2{
+	margin-left: 20px;
+	display: flex;
+	width: 570px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#QR-Landing{
+	width: 108px;
+	height: 108px;
+}
+
+#Region-Code{
+	height: 112px;
+}
+
+#US-EU{
+  display: inline-block;
+  margin-top: -38px;
+  vertical-align: top;
+}
+
+#Filler-Text{
+	display: flex;
+	gap: 17px;
+	margin-top: -19px;
+}
+
+#Blank{
+	display: flex;
+	gap: 45px;
+}
+
+#Medical-Centers{
+	width: 284px;
+}
+
+#Founded{
+	width: 284px;
+}
+
+#Left-Third{
+	width: 400px;
+}
+
+#Right-Third{
+	width: 785px;
+}
+
+#Queue{
+	margin-left: 30px;
+}
+
+#Queue-Gif{
+	width: 360px;
+	height: 285px;
+	margin-left: 0px;
+}
+
+#BG-Circle{
+	width: 286px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #000;
+	height: 286px;
+	margin-top: -286px;
+	margin-left: 35px;
+	z-index: -1;
+}
+
+#Star-Break{
+	line-height: 19px;
+	width: 382px;
+}
+
+#Guest{
+	display: flex;
+	gap: 65px;
+	margin-top: -70px;
+}
+
+#You-Are{
+	width: 236px;
+}
+
+#Guest-Bar{
+	font-size: 64px;
+}
+
+#Guest-Number{
+	font-size: 192px;
+	margin-top: 100px;
+}
+
+#Logos-Blank{
+	display: flex;
+	width: 760px;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+
+#QR-Blank{
+	width: 180px;
+	height: 180px;
+}
+
+#Fill-Blank{
+	width: 780px;
+	height: 420px;
+	border: 4px dashed #000;
+	text-align: center;
+}
+
+.Fill-Text{
+	color: #000;
+	font-family: Deformica;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 64px;
+	vertical-align: bottom;
+	border: 0px solid #000;
+	border-bottom: 4px solid #000;
+	opacity: 1;
+	width: 625px;
+	padding: 15px;
+}
+
+#Buttons{
+	display: flex;
+	margin-top: 19px;
+	gap: 19px;
+}
+
+#Done{
+	width: 186px;
+	height: 76px;
+	border-radius: 8px;
+	border: 4px dashed #000;
+	align-items: center;
+	padding-left: 96px;
+	padding-bottom: 15px;
+	transition: all 0.1s ease-out;
+}
+
+#Done:hover{
+	border-radius: 8px;
+	border: 4px dashed #FFF;
+	background-color: #000;
+	color: white;
+}
+
+#Clear:hover{
+	border-radius: 8px;
+	border: 4px dashed #FFF;
+	background-color: #000;
+	color: white;
+}
+
+#Clear{
+	width: 140px;
+	height: 76px;
+	border-radius: 8px;
+	border: 4px dashed #000;
+	align-items: center;
+	padding-left: 42px;
+	padding-bottom: 15px;
+	transition: all 0.1s ease-out;
+}
+
+#Cross-Gif{
+	position: absolute;
+	width: 384px;
+	height: 384px;
+	z-index: -1;
+	margin-left: 420px;
+	margin-top: -10px;
+}
+
+#Contacts{
+	width: 382px;
+	text-align: left;
+}
+
+#Disclaimer{
+	width: 685px;
+	height: 78px;
+	flex-shrink: 0;
+	color: #000;
+	text-align: left;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 9.5px;
+	margin-top: -50px;
+}
+
+#Black{
+	position: fixed;
+	width: 0vw;
+	height: 0vh;
+	background-color: #000;
+	opacity: 0;
+	transition: opacity 0.3s ease-out;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	margin-left: -2vw;
+	margin-top: -7vh;
+}
+
+#Processing{
+	margin-top: 50vh;
+}
+
+#Scanner{
+	position: absolute;
+	width: 330px;
+	height: 110vh;
+	flex-shrink: 0;
+	background: #FFF;
+	filter: blur(62.5px);
+	animation: idle;
+	margin-left: -30vw;
+}
+
+@keyframes idle{
+	100%{}
+}
+
+@keyframes scanning{
+	0%{margin-left: -30vw};
+	100%{margin-left: 100vw}
+}
+
+#ID-Card{
+	display: flex;
+	justify-content: center;
+	width: 0vw;
+	height: 0vh;
+	position: absolute;
+	margin-left: auto;
+	margin-top: auto;
+	opacity: 0;
+	transition: opacity 0.3s ease-out;
+	z-index: -1;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#ID-Container{
+	width: 1054px;
+	height: 619px;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+}
+
+#Info{
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	gap: 106px;
+	transform: scaleX(5.0);
+	text-align: left;
+	margin-left: 750px;
+	margin-top: -500px;
+}
+
+#Row-Names{
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	gap: 106px;
+	transform: scaleX(5.0);
+	text-align: left;
+	margin-left: 690px;
+	margin-top: -540px;
+}
+
+#defaultCanvas0{
+	position: fixed;
+	margin-top: -560px;
+	margin-left: -475px;
+	z-index: 3;
+}
+
+.White{
+	color: #FFF;
+}
+
+#Procceed{
+	margin-left: 45vw;
+	margin-top: 300px;
+	border-radius: 8px;
+	border: 4px dashed #FFF;
+	padding-left: 60px;
+	padding-top: 15px;
+	width: 9px;
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.00);
+	color: white;
+}
+
+#Procceed:hover{
+	border: 4px dashed #000;
+	background: #FFF;
+	color: black !important;
+}
+
+.White{
+	color: white;
+}
+
+#Monolog{
+	opacity: 0;
+ 	margin-left: 45vw;
+ 	margin-top: -60vh;
+}
+
+#Choice{
+	display: flex;
+	gap: 215px;
+	margin-left: -200px;
+}
+
+#True{
+	border-radius: 8px;
+	border: 4px dashed #FFF;
+	background: rgba(0, 0, 0, 0.00);
+	color: white;	
+}
+
+#Monolog-Text{
+	width: 582px;
+	text-align: center;
+	margin-left: -5vw;
+}
+
+#Hide{
+	width: 115px;
+	border-radius: 8px;
+	border: 4px dashed #FFF;
+	background: rgba(0, 0, 0, 0.00);
+	text-align: center;	
+	padding-left: 30px;
+	color: white;
+}
+
+#True:hover{
+	border: 4px dashed #000;
+	background: #FFF;
+	color: black !important;
+}
+
+#Hide:hover{
+	border: 4px dashed #000;
+	background: #FFF;
+	color: black !important;
+}
+
+#camera{
+	opacity: 0;
+}
